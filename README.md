@@ -2,11 +2,17 @@
 
 ## 目次
 概要
+
 インストール方法
+
 使い方
+
 　calculate_averageについて
+
   calculate_medianについて
+
   calculate_stdevについて
+
   calculate_sumについて
 
 ## 概要
@@ -16,14 +22,12 @@
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
-```bash
 リポジトリのクローン方法
 以下のコマンドをターミナル上で入力します。
-git clone https://github.com/masuyoiti/robosys2024.git
-
-ディレクトリへの移動方法
-cd repository
+```git clone https://github.com/masuyoiti/robosys2024.git
 ```
+ディレクトリへの移動方法
+```cd repository```
 
 ## 使い方
 ## 実行方法
