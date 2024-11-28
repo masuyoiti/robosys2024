@@ -43,7 +43,8 @@ echo "1 2 3 4 5" | ./calculate_median
 ```
 calculate_medianの実行結果
 ```
-
+median
+Median: 3.0
 ```
 calculate_stdevの実行例
 ```
@@ -51,7 +52,8 @@ echo "1 2 3 4 5" | python3 calculate_stdev
 ```
 calculate_stdevの実行結果
 ```
-
+ulate_stdev
+Standard Deviation: 1.5811388300841898
 ```
 calculate_sumの実行例
 ```
@@ -59,7 +61,8 @@ echo "1 2 3 4 5" | python3 calculate_sum
 ```
 calculate_sumの実行結果
 ```
-
+ulate_sum
+Sum: 15.0
 ```
 
 ## 要求環境
