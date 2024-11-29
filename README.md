@@ -5,12 +5,10 @@
 - リポジトリのクローン方法
 - ディレクトリの移動方法
 - 実行方法
-  - calculate_averageについて
-  - calculate_medianについて
-  - calculate_stdevについて
-  - calculate_sumについて
+  - lcmについて
+  - gcdについて
 ## 概要
-ターミナル上で数列の計算（平均値計算、中央値計算、標準偏差計算、合計計算）をするプログラムが入っています。
+ターミナル上で最小公倍数(LCM)と最大公約数(GCD)を求めるプログラムです。
 ## リポジトリのクローン方法
 以下のコマンドをターミナル上で入力します。
 ```
@@ -21,45 +19,25 @@ git clone https://github.com/masuyoiti/robosys2024.git
 cd robosys2024
 ```
 ## 実行方法
-### calculate_averageについて
-実行すると数列を受け取り、その平均値を出力します。
+### lcmについて
+実行すると数値を受け取り、その最小公倍数を出力します。
 - 実行例
 ```
-echo "1 2 3 4 5" | ./calculate_average
+echo "30 25" | ./lcm
 ```
 - 実行結果
 ```
-Average: 3.0
+The LCM of 30 and 25 is: 150.0
 ```
-### calculate_medianについて
-実行すると数列を受け取り、その中央値を出力します。
+### gcdについて
+実行すると数値を受け取り、その最大公約数を出力します。
 - 実行例
 ```
-echo "1 2 3 4 5" | ./calculate_median
+echo "230 15" | ./gcd
 ```
 - 実行結果
 ```
-Median: 3.0
-```
-### calculate_stdevについて
-実行すると数列を受け取り、その標準偏差を出力します。
-- 実行例
-```
-echo "1 2 3 4 5" | python3 calculate_stdev
-```
-- 実行結果
-```
-Standard Deviation: 1.5811388300841898
-```
-### calculate_sumについて
-実行すると数列を受け取り、その合計を出力します。
-- 実行例
-```
-echo "1 2 3 4 5" | python3 calculate_sum
-```
-- 実行結果
-```
-Sum: 15.0
+The GCD of 230 and 15 is: 5
 ```
 ## 実行可能ソフトウェア
 - Python
