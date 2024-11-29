@@ -4,7 +4,7 @@
 - 概要
 - リポジトリのクローン方法
 - ディレクトリの移動方法
-- 使い方
+- 実行方法
   - calculate_averageについて
   - calculate_medianについて
   - calculate_stdevについて
