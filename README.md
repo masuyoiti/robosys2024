@@ -1,7 +1,7 @@
 # 数列計算機
 ## 目次
 概要
-クローン方法
+リポジトリのクローン方法
 ディレクトリの移動方法
 使い方
 
@@ -27,31 +27,39 @@ cd robosys2024
 ## 使い方
 
 ## 実行方法
-calculate_averageの実行例
+### calculate_averageについて
+実行すると数列を受け取り、その平均値を出力します。
+実行例
 ```
 echo "1 2 3 4 5" | ./calculate_average
 ```
-calculate_averageの実行結果
+実行結果
 ```
 Average: 3.0
 ```
-calculate_medianの実行例
+### calculate_medianについて
+実行すると数列を受け取り、その中央値を出力します。
+実行例
 ```
 echo "1 2 3 4 5" | ./calculate_median
 ```
-calculate_medianの実行結果
+実行結果
 ```
 Median: 3.0
 ```
-calculate_stdevの実行例
+### calculate_stdevについて
+実行すると数列を受け取り、その標準偏差を出力します。
+実行例
 ```
 echo "1 2 3 4 5" | python3 calculate_stdev
 ```
-calculate_stdevの実行結果
+実行結果
 ```
 Standard Deviation: 1.5811388300841898
 ```
-calculate_sumの実行例
+### calculate_sumについて
+実行すると数列を受け取り、その合計を出力します。
+実行例
 ```
 echo "1 2 3 4 5" | python3 calculate_sum
 ```
