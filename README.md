@@ -1,3 +1,4 @@
+[![test](https://github.com/masuyoiti/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/masuyoiti/robosys2024/actions/workflows/test.yml)
 # 数列計算機
 ## 目次
 概要
