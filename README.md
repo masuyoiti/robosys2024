@@ -12,8 +12,7 @@
 ## 概要
 - ターミナル上で数列の計算（平均値計算、中央値計算、標準偏差計算、合計計算）をするプログラムが入っています。
 ## リポジトリのクローン方法
-
-- 以下のコマンドをターミナル上で入力します。
+以下のコマンドをターミナル上で入力します。
 ```
 git clone https://github.com/masuyoiti/robosys2024.git
 ```
@@ -23,8 +22,7 @@ cd robosys2024
 ```
 ## 実行方法
 ### calculate_averageについて
-- 実行すると数列を受け取り、その平均値を出力します。
-
+実行すると数列を受け取り、その平均値を出力します。
 - 実行例
 ```
 echo "1 2 3 4 5" | ./calculate_average
@@ -34,8 +32,7 @@ echo "1 2 3 4 5" | ./calculate_average
 Average: 3.0
 ```
 ### calculate_medianについて
-- 実行すると数列を受け取り、その中央値を出力します。
-
+実行すると数列を受け取り、その中央値を出力します。
 - 実行例
 ```
 echo "1 2 3 4 5" | ./calculate_median
@@ -45,8 +42,7 @@ echo "1 2 3 4 5" | ./calculate_median
 Median: 3.0
 ```
 ### calculate_stdevについて
-- 実行すると数列を受け取り、その標準偏差を出力します。
-
+実行すると数列を受け取り、その標準偏差を出力します。
 - 実行例
 ```
 echo "1 2 3 4 5" | python3 calculate_stdev
@@ -56,8 +52,7 @@ echo "1 2 3 4 5" | python3 calculate_stdev
 Standard Deviation: 1.5811388300841898
 ```
 ### calculate_sumについて
-- 実行すると数列を受け取り、その合計を出力します。
-
+実行すると数列を受け取り、その合計を出力します。
 - 実行例
 ```
 echo "1 2 3 4 5" | python3 calculate_sum
