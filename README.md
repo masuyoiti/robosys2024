@@ -15,10 +15,10 @@
 
   calculate_sumについて
 
-### 概要
+## 概要
 ・ターミナル上で数列の計算（平均値計算、中央値計算、標準偏差計算、合計計算）をするプログラムが入っています。
 
-#### インストール方法
+## インストール方法
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
@@ -26,26 +26,30 @@
 
 以下のコマンドをターミナル上で入力します。
 
-```git clone https://github.com/masuyoiti/robosys2024.git```
+```
+git clone https://github.com/masuyoiti/robosys2024.git
+```
 
 ディレクトリへの移動方法
 
-```cd repository```
+```
+cd repository
+```
 
-##### 使い方
-###### 実行方法
+## 使い方
 
+## 実行方法
 calculate_averageの実行例
 
-```echo "1 2 3 4 5" | ./calculate_average```
+```
+echo "1 2 3 4 5" | ./calculate_average
+```
 
 calculate_averageの実行結果
-
 ```
 average
 Average: 3.0
 ```
-
 calculate_medianの実行例
 
 ```
@@ -84,9 +88,8 @@ calculate_sumの実行結果
 ulate_sum
 Sum: 15.0
 ```
-
-####### 要求環境
-######## 必要なソフトウェア
+## 要求環境
+## 必要なソフトウェア
 Python
 
 ######### テスト環境
