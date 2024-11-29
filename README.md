@@ -65,11 +65,11 @@ Standard Deviation: 1.5811388300841898
 ### calculate_sumについて
 実行すると数列を受け取り、その合計を出力します。
 
-実行例
+ - 実行例
 ```
 echo "1 2 3 4 5" | python3 calculate_sum
 ```
-実行結果
+ - 実行結果
 ```
 Sum: 15.0
 ```
@@ -81,8 +81,8 @@ Python
 ## テスト環境
 Ubuntu 22.04 LTS
 ## ライセンス
-このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます。
--このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
--[ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
+ - このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます。
+ - このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
+ - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
 
 © 2024 Youiti Masuyama
