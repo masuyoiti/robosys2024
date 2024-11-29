@@ -29,6 +29,7 @@ cd robosys2024
 ## 実行方法
 ### calculate_averageについて
 実行すると数列を受け取り、その平均値を出力します。
+
 実行例
 ```
 echo "1 2 3 4 5" | ./calculate_average
@@ -39,6 +40,7 @@ Average: 3.0
 ```
 ### calculate_medianについて
 実行すると数列を受け取り、その中央値を出力します。
+
 実行例
 ```
 echo "1 2 3 4 5" | ./calculate_median
@@ -49,6 +51,7 @@ Median: 3.0
 ```
 ### calculate_stdevについて
 実行すると数列を受け取り、その標準偏差を出力します。
+
 実行例
 ```
 echo "1 2 3 4 5" | python3 calculate_stdev
@@ -59,6 +62,7 @@ Standard Deviation: 1.5811388300841898
 ```
 ### calculate_sumについて
 実行すると数列を受け取り、その合計を出力します。
+
 実行例
 ```
 echo "1 2 3 4 5" | python3 calculate_sum
