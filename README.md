@@ -46,6 +46,7 @@ The GCD of 230 and 15 is: 5
 Ubuntu 22.04 LTS
 ## 参考資料
 [Pythonで最小公倍数、最大公約数を計算する](https://ictsr4.com/py/m0150.html)
+[python3でN個の整数の最小公倍数・最大公約数を求める](https://qiita.com/tanahi1025/items/b5d48d1da26caffbf1f9)
 ## ライセンス
 - このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます。
 - このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
