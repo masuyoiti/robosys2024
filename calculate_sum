@@ -1,8 +1,0 @@
-#!/usr/bin/env python3
-
-import sys
-
-numbers = list(map(float, sys.stdin.read().strip().split()))
-total_sum = sum(numbers)
-print(f"Sum: {total_sum}")
-
