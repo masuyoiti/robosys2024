@@ -1,5 +1,5 @@
 [![test](https://github.com/masuyoiti/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/masuyoiti/robosys2024/actions/workflows/test.yml)
-# 数列計算機
+# 最大公約数・最小公倍数計算機
 ## 目次
 - 概要
 - リポジトリのクローン方法
@@ -39,6 +39,9 @@ echo "230 15" | ./gcd
 ```
 The GCD of 230 and 15 is: 5
 ```
+## 参考資料
+[Pythonで最小公倍数、最大公約数を計算する](https://ictsr4.com/py/m0150.html)
+
 ## 実行可能ソフトウェア
 - Python
   - テスト済みバージョン：3.7~3.10
