@@ -27,8 +27,6 @@ git clone https://github.com/masuyoiti/robosys2024.git
 ```
 cd robosys2024
 ```
-## 使い方
-
 ## 実行方法
 ### calculate_averageについて
 実行すると数列を受け取り、その平均値を出力します。
@@ -84,5 +82,7 @@ Ubuntu 22.04 LTS
 ## ライセンス
 このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます。
 このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
+
 ryuichiueda/my_slides robosys_2024
+
 © 2024 Youiti Masuyama
