@@ -67,7 +67,7 @@ Standard Deviation: 1.5811388300841898
 ```
 echo "1 2 3 4 5" | python3 calculate_sum
 ```
-calculate_sumの実行結果
+実行結果
 ```
 Sum: 15.0
 ```
