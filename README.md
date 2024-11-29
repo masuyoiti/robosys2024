@@ -22,7 +22,7 @@ git clone https://github.com/masuyoiti/robosys2024.git
 ```
 ## ディレクトリへの移動方法
 ```
-cd repository
+cd robosys2024
 ```
 ## 使い方
 
