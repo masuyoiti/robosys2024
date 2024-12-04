@@ -23,4 +23,4 @@ if __name__ == "__main__":
     
     lcm_result = lcm(a, b)
     
-    print(f"The LCM of {a} and {b} is: {lcm_result}")
+    print(f"{lcm_result}")

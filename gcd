@@ -20,4 +20,4 @@ if __name__ == "__main__":
     
     gcd_result = gcd(a, b)
     
-    print(f"The GCD of {a} and {b} is: {gcd_result}")
+    print(f"{gcd_result}")
