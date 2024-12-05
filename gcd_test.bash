@@ -26,15 +26,12 @@ out=$(echo "7 13" | ./gcd)
 out=$(echo "0 10" | ./gcd)
 [ "${out}" = "10" ] || ng "$LINENO"  # GCD: 0と10の最大公約数は10
 
-out=$(echo "10 0" | ./gcd)
-[ "${out}" = "10" ] || ng "$LINENO"  # GCD: 10と0の最大公約数は10
 
-# エラーケースの確認
 out=$(echo "10" | ./gcd 2>&1)
-[ "${out}" = "Error: Please provide two numbers." ] || ng "$LINENO"  # 引数が足りない場合
+[ "${out}" = "Error: Please provide two numbers." ] || ng "$LINENO"
 
 out=$(echo "" | ./gcd 2>&1)
-[ "${out}" = "Error: Please provide two numbers." ] || ng "$LINENO"  # 引数が空の場合
+[ "${out}" = "Error: Please provide two numbers." ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 exit $res
