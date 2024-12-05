@@ -1,24 +1,27 @@
-#!/bin/bash -xv
+#!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2024 Youichi Masuyama <yaiti0212@gmail.com>
+# SPDX-License-Identifier: BSD-3-Clause
 
-ng () {
-	echo ${1}行目が違うよ
-	res=1
-}
+import sys
 
-res=0
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
 
-//normal input
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng "$LINENO"
+def lcm(a, b):
+    return abs(a * b) // gcd(a, b)
 
-//strange input
-out=$(echo あ | ./plus)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
-
-out=$(echo | ./plus)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
-
-[ "$res" = 0 ] && echo OK
-exit $res
+if __name__ == "__main__":
+    input_data = sys.stdin.read().strip().split()
+    if len(input_data) < 2:
+        print("Error: Please provide two numbers.")
+        sys.exit(1)
+    a = int(input_data[0])
+    b = int(input_data[1])
+    
+    gcd_result = gcd(a, b)
+    lcm_result = lcm(a, b)
+    
+    print(f"GCD: {gcd_result}")
+    print(f"LCM: {lcm_result}")
