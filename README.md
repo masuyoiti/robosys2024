@@ -103,8 +103,8 @@ Ubuntu 22.04 LTS
 
 [素敵なREADMEの書き方](https://qiita.com/koeri3/items/f85a617dcb6efebb2cab)
 ## ライセンス
-- このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます。
-- このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
+- このソフトウェアパッケージは、 3条項BSDライセンスの下、 再頒布および使用が許可されます。
+- このパッケージのコードの一部は、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
     - [ryuichiueda/slides_marp/tree/master/robosys_2024](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024)
 
 © 2024 Youichi Masuyama
